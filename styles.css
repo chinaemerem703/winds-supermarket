@@ -29,6 +29,8 @@ body {
   padding: 8px 16px;
   font-size: 11px;
   letter-spacing: 0.12em;
+  
+  
 }
 .site-header {
   height: 86px;
@@ -36,7 +38,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #ffffff;
+  background: black;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -59,7 +61,7 @@ body {
   letter-spacing: 0.1em;
   margin-top: 6px;
   font-weight: 600;
-  color: #8d5960;
+  color: #fff;
 }
 .brand-mark {
   width: 43px;
@@ -76,20 +78,22 @@ body {
   display: flex;
   align-items: center;
   gap: 29px;
+  
 }
 .nav a,
 .text-link {
   color: var(--ink);
-  font-size: 12px;
+  font-size: 18px;
   text-decoration: none;
   font-weight: 600;
+  color: #fff;
 }
 .nav a:hover,
 .text-link:hover {
-  color: #b31b2b;
+  color: yellowgreen;
 }
 .nav .nav-cta {
-  background: var(--blush);
+  background: var(--red2);
   padding: 12px 17px;
   border-radius: 2px;
 }
@@ -98,6 +102,7 @@ body {
   background: none;
   border: 0;
   font-size: 25px;
+  color: #fff;
 }
 .hero {
   display: grid;
@@ -107,6 +112,7 @@ body {
   padding: 54px 6.5% 60px;
   gap: 7%;
   align-items: center;
+  background-image: url("./image/pexels-photo-16211537.avif");
 }
 .hero-copy {
   padding: 12px 0;
@@ -115,7 +121,7 @@ body {
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.18em;
-  color: #b51d2d;
+  color: #fff;
   display: block;
   margin-bottom: 18px;
 }
@@ -124,7 +130,7 @@ body {
 .farm-copy h2,
 .about-copy h2,
 .contact-intro h2 {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   font-weight: 500;
   letter-spacing: -0.04em;
   line-height: 1.07;
@@ -132,6 +138,7 @@ body {
 }
 .hero h1 {
   font-size: clamp(48px, 5.8vw, 76px);
+  color: #fff;
 }
 h1 em,
 h2 em {
@@ -139,11 +146,12 @@ h2 em {
   font-weight: 500;
 }
 .hero-copy > p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.9;
-  color: var(--muted);
+  /* color: var(--muted); */
   max-width: 440px;
   margin: 25px 0;
+  color: #fff;
 }
 .hero-actions {
   display: flex;
@@ -194,7 +202,7 @@ h2 em {
   background: #d54a57;
   border-radius: 50%;
 }
-.hero-art {
+/* .hero-art {
   height: 420px;
   position: relative;
 }
@@ -203,7 +211,7 @@ h2 em {
   height: 100%;
   object-fit: cover;
   border-radius: 48% 48% 4px 4px;
-}
+} */
 .floating-card {
   position: absolute;
   bottom: 28px;
@@ -268,6 +276,7 @@ h2 em {
 .trust-strip span {
   font-size: 11px;
   font-weight: 600;
+  
 }
 .section {
   padding: 94px 6.5%;
@@ -392,6 +401,7 @@ h2 em {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 13px;
+  
 }
 .product-tile {
   background: var(--paper);
@@ -399,6 +409,10 @@ h2 em {
   min-height: 180px;
   position: relative;
   border: 1px solid #f4e3e5;
+  
+}
+.card1 {
+/* background-image: url("./image/pexels-photo-16211537.avif"); */
 }
 .tile-icon {
   width: 37px;
@@ -426,6 +440,7 @@ h2 em {
   color: #e6b7bd;
   font-size: 10px;
 }
+
 .about-section {
   padding: 90px 6.5%;
   display: grid;
@@ -572,6 +587,7 @@ h2 em {
   }
   .menu-toggle {
     display: block;
+  
   }
   .nav {
     display: none;
@@ -579,13 +595,15 @@ h2 em {
     top: 71px;
     left: 0;
     right: 0;
-    background: #ffffff;
+    background: #000;
     padding: 20px 5%;
     flex-direction: column;
     align-items: stretch;
     gap: 18px;
     border-bottom: 1px solid var(--line);
+    font-size: 10px;
   }
+ 
   .nav.open {
     display: flex;
   }
