@@ -14,7 +14,7 @@ nav?.querySelectorAll("a").forEach((link) =>
 );
 document.querySelector("#year").textContent = new Date().getFullYear();
 
-const whatsappNumber = '2348031234567'; // Replace with Winds' number
+const whatsappNumber = '+2348119258962'; 
 
 const enquiryForm = document.querySelector('#enquiry-form');
 
